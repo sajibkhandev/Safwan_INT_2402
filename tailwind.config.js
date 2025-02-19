@@ -11,11 +11,16 @@ export default {
         'secondary': '#E5745D',
       },
       fontFamily: {
-        'jost': ['Jost']
+        'jost': ['Jost'],
+        'voll': ['Vollkorn'],
         
       },
       maxWidth :{
         'container':"1170px"
+      },
+      backgroundImage:{
+        'banner': "url('./public/banner.png')",
+        'banner2': "url('./public/banner2.jpg')",
       }
     },
   },
