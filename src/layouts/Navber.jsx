@@ -5,6 +5,8 @@ import Image from '../components/Image'
 import Button from '../components/Button'
 import List from   '../components/List'
 import Logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
+import Cv from '../assets/SajibCV.pdf'
 
 const Navber = () => {
   return (
@@ -16,16 +18,21 @@ const Navber = () => {
         </div>
         <div className='w-6/12  '>
         <ul className='flex gap-x-12 justify-center'>
-            <List text="Home"/>
-            <List text="Pages"/>
-            <List text="Services"/>
-            <List text="Blog"/>
-            <List text="Contact"/>
+          
+           <Link to='/'> <List text="Home"/> </Link>
+           <Link to='/service'> <List text="Services"/></Link>
+           <Link to='/about'> <List text="About"/></Link>
+           <Link to='/blog'> <List text="Blog"/></Link>
+           <Link to='/contact'>  <List text="Contact"/></Link>
+           
+            
+            
+           
             
         </ul>
         </div>
         <div className='w-3/12 text-end'>
-        <Button text="Download CV"/>
+       <a  href={Cv}><Button text="Show My CV" /></a>
         </div>
 
         </Flex>

@@ -7,7 +7,7 @@ import ServiceImage2 from '../../public/ServiceCardTwo.png'
 import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
 
-const Service = () => {
+const ServiceLayout = () => {
   return (
     <section className='pt-[220px] pb-[120px]'>
         <Container>
@@ -27,4 +27,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default ServiceLayout
