@@ -6,6 +6,7 @@ import Heading from '../components/Heading'
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
 import ProjectCard from '../components/ProjectCard'
+import Button from '../components/Button'
 
 
 
@@ -26,12 +27,16 @@ const Project = () => {
             </Flex>
 
             <Flex className='justify-between pt-10 pb-[60px]'>
-                <ProjectCard text4='View Case Studies' text3="sajib khen" text2="Branding & Digital Video Campaign For George’s Cafe" text1="Analytics, UI-Ux"/>
-                <ProjectCard text4='View Case Studies' text3="sajib khen" text2="Digital Video Campaign For George’s Cafe" text1="Mobile App"/>
-                <ProjectCard text4='View Case Studies' text3="sajib khen" text2=" Video Campaign For George’s Cafe" text1="Web Development"/>
+                <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2="Branding & Digital Video Campaign For George’s Cafe" text1="Analytics, UI-Ux"/>
+                <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2="Digital Video Campaign For George’s Cafe" text1="Mobile App"/>
+                <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2=" Video Campaign For George’s Cafe" text1="Web Development"/>
                 
 
             </Flex>
+
+            <div className='text-center'>
+            <Button text='Explore More'/>
+            </div>
 
         </Container>
     </section>
