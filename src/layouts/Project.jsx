@@ -1,0 +1,41 @@
+import React from 'react'
+import Container from '../components/Container'
+import Flex from '../components/Flex'
+import SubHeading from '../components/SubHeading'
+import Heading from '../components/Heading'
+import { HiOutlineArrowSmallRight } from "react-icons/hi2";
+import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
+import ProjectCard from '../components/ProjectCard'
+
+
+
+const Project = () => {
+  return (
+    
+    <section className='py-[100px]'>
+        <Container>
+            <Flex className='justify-between items-center'>
+                <div>
+                    <SubHeading className='!text-left' text='Recent Projects'/>
+                    <Heading className='!text-left' text='My Recent Projects'/>
+                </div>
+                <Flex className='gap-x-5'>
+                <div className='group border border-black p-[15px] hover:bg-[#E5745D] duration-300 hover:border-transparent'><HiOutlineArrowSmallLeft className='text-black group-hover:text-white'/> </div>
+                <div className='group border border-black p-[15px] hover:bg-[#E5745D] duration-300 hover:border-transparent'><HiOutlineArrowSmallRight className='text-black group-hover:text-white'/></div>
+                </Flex>
+            </Flex>
+
+            <Flex className='justify-between pt-10 pb-[60px]'>
+                <ProjectCard text4='View Case Studies' text3="sajib khen" text2="Branding & Digital Video Campaign For George’s Cafe" text1="Analytics, UI-Ux"/>
+                <ProjectCard text4='View Case Studies' text3="sajib khen" text2="Digital Video Campaign For George’s Cafe" text1="Mobile App"/>
+                <ProjectCard text4='View Case Studies' text3="sajib khen" text2=" Video Campaign For George’s Cafe" text1="Web Development"/>
+                
+
+            </Flex>
+
+        </Container>
+    </section>
+  )
+}
+
+export default Project
