@@ -7,6 +7,7 @@ import AboutLayout from '../layouts/AboutLayout'
 import Project from '../layouts/Project'
 import Client from '../layouts/Client'
 import Contact from '../layouts/Contact'
+import Footer from '../layouts/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
    <Project/>
    <Client/>
    <Contact/>
+   <Footer/>
 
 
    </>
