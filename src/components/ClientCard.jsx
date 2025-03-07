@@ -8,7 +8,7 @@ const ClientCard = () => {
         <div className='absolute  -bottom-[30px] left-[40px]'>
             <Image src={Vector}/>
         </div>
-        <p className='py-[30px] px-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and this
+        <p className='py-[30px] px-10 text-[#00413D] text-base font-jost font-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and this
         typesetting industry.</p>
     </div>
   )

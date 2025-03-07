@@ -4,6 +4,7 @@ import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
 import ClientCard from '../components/ClientCard'
 import Flex from '../components/Flex'
+import ClientCard2 from '../components/ClientCard2'
 
 const Client = () => {
   return (
@@ -16,6 +17,11 @@ const Client = () => {
            <Flex className='justify-between pt-10'>
            <ClientCard/>
            <ClientCard/>
+           
+           </Flex>
+           <Flex className='justify-around pt-10'>
+           <ClientCard2/>
+           <ClientCard2/>
            </Flex>
 
         </Container>
