@@ -14,21 +14,21 @@ const AboutLayout = () => {
   return (
     <section className='py-[80px]'>
         <Container>
-            <Flex>
-            <div className='w-1/2'>
-            <Flex className='justify-between'>
-            <Image src={AboutOneImage}/>
+            <Flex className='!block md:!flex'>
+            <div className='md:w-1/2'>
+            <Flex className='justify-between !block md:!flex'>
+            <Image className=' pb-5 md:pb-0 w-[80%] mx-auto' src={AboutOneImage}/>
             <div>
-            <Image className='pb-[30px]' src={AboutTwoImage}/>
-            <Image src={AboutTwoImage}/>
+            <Image className='pb-[30px] w-[80%] mx-auto' src={AboutTwoImage}/>
+            <Image className='w-[80%] mx-auto' src={AboutTwoImage}/>
             </div>
             </Flex>
             
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2'>
            <div className='px-[30px] pt-[10px]'>
            <SubHeading className='!text-left' text="About Me"/>
-           <Heading className='!text-left w-[577px]' text='I Enjoy Solving Problems With Scalable Solutions'/>
+           <Heading className='!text-left  text-[30px] md:text-[52px] md:w-[577px]' text='I Enjoy Solving Problems With Scalable Solutions'/>
            <p className='text-base text-[#00413D] font-jost font-normal pt-1'>Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, quia non numquam eius modi tempora incidunt lao magnam aliquam quaerat voluptatem reprehenderit.</p>
            <p className='text-base text-[#00413D] font-jost font-normal pt-4 pb-[50px]'>Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem
            reprehenderit non numquam eius.</p>

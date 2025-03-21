@@ -12,7 +12,7 @@ const ServiceLayout = () => {
     <section className='pt-[100px] md:pt-[220px] pb-[60px] md:pb-[120px]'>
         <Container>
           <SubHeading text="MY SERVICES"/>
-            <Heading className='w-auto md:w-[522px] text-4xl md:text-[50px] md:leading-[60px]' text='Provide Wide Range of Digital Services'/>
+            <Heading className='w-auto md:w-[522px] text-[30px] md:text-[50px] md:leading-[60px]' text='Provide Wide Range of Digital Services'/>
         
 
             <Flex className='flex-wrap justify-center md:justify-between pt-10 px-3 sm:px-3 md:px-0'>

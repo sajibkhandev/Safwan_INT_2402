@@ -15,10 +15,10 @@ const Project = () => {
     
     <section className='py-[100px]'>
         <Container>
-            <Flex className='justify-between items-center'>
+            <Flex className='!block md:!flex justify-between items-center px-3 md:px-0'>
                 <div>
                     <SubHeading className='!text-left' text='Recent Projects'/>
-                    <Heading className='!text-left' text='My Recent Projects'/>
+                    <Heading className='!text-left text-[32px] md:text-[52px] pb-5 md:pb-0' text='My Recent Projects'/>
                 </div>
                 <Flex className='gap-x-5'>
                 <div className='group border border-black p-[15px] hover:bg-[#E5745D] duration-300 hover:border-transparent'><HiOutlineArrowSmallLeft className='text-black group-hover:text-white'/> </div>
@@ -26,7 +26,7 @@ const Project = () => {
                 </Flex>
             </Flex>
 
-            <Flex className='justify-between pt-10 pb-[60px]'>
+            <Flex className='justify-between flex-wrap px-3 md:px-0 gap-y-4 md:gap-y-0 pt-10 pb-[60px]'>
                 <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2="Branding & Digital Video Campaign For George’s Cafe" text1="Analytics, UI-Ux"/>
                 <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2="Digital Video Campaign For George’s Cafe" text1="Mobile App"/>
                 <ProjectCard text4='View Case Studies' text3="Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry." text2=" Video Campaign For George’s Cafe" text1="Web Development"/>

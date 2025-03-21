@@ -62,17 +62,20 @@ const Navber = () => {
         </div>
         </Flex>
 
-       {
-        open &&  <ul className='absolute top-[78px]  left-0 z-40 w-full bg-blue-500 flex flex-col justify-center items-center gap-y-12 text-white text-lg font-semibold font-pop py-14'>
-        <Link to='/'><li>Home</li></Link>
-        <Link to='/service'><li>Services</li></Link>
-        
-        <li>About</li>
-        <li>Blog</li>
-        <li>Contact</li>
-  
-      </ul>
-       }
+        {
+  <ul
+    className={`absolute top-[78px] right-0 z-40 bg-blue-500 flex flex-col justify-center items-center gap-y-12 text-white text-lg font-semibold font-pop py-14  w-2/3 transition-all duration-300 transform ${
+      open ? 'translate-x-0' : 'translate-x-full'
+    }`}
+  >
+    <Link to="/"><li>Home</li></Link>
+    <Link to="/service"><li>Services</li></Link>
+    <Link to="/about"><li>About</li></Link>
+    <Link to="/blog"><li>Blog</li></Link>
+    <Link to="/contact"><li>Contact</li></Link>
+  </ul>
+}
+
 
        </nav>
    {/* Mobile Design end */}
